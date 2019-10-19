@@ -1,0 +1,31 @@
+{
+    "name": "quatremains-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ThomasAndrewMacLean/quatremains-server.git"
+    },
+    "keywords": [],
+    "author": "Thomas MacLean <hello@thomasmaclean.be> (https://thomasmaclean.be)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ThomasAndrewMacLean/quatremains-server/issues"
+    },
+    "homepage": "https://github.com/ThomasAndrewMacLean/quatremains-server#readme",
+    "devDependencies": {
+        "eslint": "^6.5.1",
+        "nodemon": "^1.19.4"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "google-spreadsheet": "^2.0.8",
+        "node-fetch": "^2.6.0"
+    }
+}
