@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "quatremains-server-executor",
+    "name": "quatremains-server",
+    "region": "eu-west-1"
+  },
+  "api": {
+    "id": "oywqe0nce0"
+  }
+}
